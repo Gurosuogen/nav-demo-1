@@ -115,10 +115,12 @@ body {
     top: 5px;
     display: none;
     cursor: default;
+    max-width: 1em;
+    max-height: 1em;
 }
 
 .siteList .site:hover > .close {
-    display: none;
+    display: block;
 }
 
 .siteList .addButton {
